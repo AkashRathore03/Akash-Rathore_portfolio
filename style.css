@@ -40,3 +40,24 @@ h1{
     max-width: 600px;
     margin: auto;
  }
+
+ .link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+ }
+.primary-link{
+background-color: blue;
+border-radius: 1rem;
+color: orange;    
+}
+
+
+.no-dots{
+    list-style: 
+    none;
+}
+
+.inkine-lane{
+    display: inline;
+    padding: 0rem 1rem;
+}
