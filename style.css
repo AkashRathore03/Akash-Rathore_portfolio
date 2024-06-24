@@ -61,3 +61,26 @@ color: orange;
     display: inline;
     padding: 0rem 1rem;
 }
+
+/* header image  */
+
+.lapimg{
+    padding: 3rem;
+}
+
+.lapimg .lapimage{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.cente{
+    padding: 1rem;
+}
+.cente h3{
+    text-align: center;
+
+}
+.mente{
+    background-color: grey;
+}
