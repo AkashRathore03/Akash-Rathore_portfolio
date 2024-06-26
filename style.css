@@ -72,6 +72,7 @@ color: orange;
     max-width: 300px;
     display: block;
     margin: auto;
+    text-align: center;
 }
 
 .cente{
@@ -82,14 +83,14 @@ color: orange;
 
 }
 .mente{
-    background-color: grey;
+    background-color: lightgray;
 }
 
 .foot{
     background-color: aqua;
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
-    border-top-right-radius: 1rem ;
+    border-top-right-radius: 0.5rem ;
 }
 
 .foote{
