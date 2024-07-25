@@ -57,3 +57,19 @@ body {
     text-align: left;
     padding: 0px 0.8rem;
 }
+
+.dropdown-menu:hover .dropdown-list {
+    display: block;
+    position: absolute;
+    /* right: 3%; */
+}
+
+.dropdown-list li {
+    margin: 0.4rem 0px;
+    list-style: none;
+}
+
+.dropdown-list li a {
+    color: #000000;
+    text-decoration: none;
+}
