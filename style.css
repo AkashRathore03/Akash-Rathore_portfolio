@@ -205,3 +205,18 @@ section {
     
 
 }
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.logos{
+    overflow: hidden;
+    padding: 30px 0;
+    background-color: #17728e;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+   
+}
