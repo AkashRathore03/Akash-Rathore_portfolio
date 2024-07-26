@@ -213,10 +213,30 @@ section {
 .logos{
     overflow: hidden;
     padding: 30px 0;
-    background-color: #17728e;
+    background-color: #92d7ec;
     white-space: nowrap;
     box-sizing: border-box;
     width: 100%;
     position: relative;
    
+}
+.logos:before{
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to left, rgba(251, 242, 213, 0), #fef2cc);
+    content: "";
+    z-index: 2;
+}
+.logos:after{
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to right, rgba(251, 242, 213, 0), #fef2cc);
+    content: "";
+    z-index: 2;
 }
