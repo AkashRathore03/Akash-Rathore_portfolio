@@ -79,7 +79,7 @@ body {
     display: flex;
     justify-content: flex-start;
     margin: 0;
-    background: #498d77;
+    background: #0e7895;
     height: 70px;
     
     
@@ -106,4 +106,31 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+#user {
+    font-size: 4rem;
+    margin-top: 60px;
+    color:#020604;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #a5c7db;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.social-icons li a i {
+    font-size: 2em;
+    border: 1px black;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.social-icons li a i:hover {
+    
+    color: #309db1;
+
+   
 }
