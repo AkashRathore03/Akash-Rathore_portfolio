@@ -327,3 +327,20 @@ section {
         
     }
     
+
+    .timeline-traveller {
+        position: sticky;
+        transform: rotate(90deg);
+        z-index: 7;
+        top: 50%;
+        border: #000000;
+    
+    
+    }
+    
+    .timeline-traveller i {
+        font-size: 2.5rem;
+        color: #394a51;
+        border: #000000;
+    }
+    
