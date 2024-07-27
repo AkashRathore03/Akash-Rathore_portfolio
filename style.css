@@ -492,3 +492,51 @@ button:focus {
     margin-left: 6%;
     margin-top: 0;
 }
+
+#my-details-container h3 {
+    color: #394a51;
+    font-weight: 550;
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#my-details-container p {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    font-family: sans-serif;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #000000;
+    padding-right: 20px;
+   
+}
+
+.my-details-info-container span {
+    display: inline-block;
+    margin-left: 0.4rem;
+    font-size: 1px;
+    color: #394a51;
+
+}
+
+.my-details-info-container i {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+   
+
+}
+
+.my-details-info-container span a {
+    color: #394a51;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#contact li i:hover {
+    box-shadow: none !important;
+}
+
