@@ -344,3 +344,52 @@ section {
         border: #000000;
     }
     
+
+    .exp-container {
+        display : flex;
+        height: auto;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       
+    }
+
+    .exp-container .exp-box{
+        height : 400px;
+        width: 400px;
+        position: relative;
+        background-color: #394a51;
+        margin: 40px 40px;
+        overflow: hidden;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 20px 1px #c5c1bc;
+    
+    }
+
+    .exp-container .exp-box .box-slide {
+        background-color: aliceblue;
+        opacity: 0.9;
+        height: inherit;
+        width: 100%;
+        margin-top: 80%;
+        animation: none; 
+        transform: translateY(0); 
+        transition: transform 0.5s ease-in-out;
+        z-index: 2;
+    }
+
+    .box-silde-h{
+        padding-top: 20px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+        
+    }
+
+    .box-a{
+        text-decoration: none;
+        color: #063022;
+    }
