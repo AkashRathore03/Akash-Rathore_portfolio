@@ -240,3 +240,16 @@ section {
     content: "";
     z-index: 2;
 }
+
+.logos-slide{
+    display: inline-block;
+    animation: 20s slide infinite linear;
+    }
+    
+    .logos-slide img{
+        margin: 0 40px;
+    }
+    
+    .logos:hover .logos-slide{
+        animation-play-state: paused;
+    }
