@@ -15,6 +15,8 @@ for (var i = 0; i < navMenu.length; i++) {
    
    });
 }
+
+
 function smoothScroll(targetSection){
     var targetcoordinates = targetSection.getBoundingClientRect();
     if (targetcoordinates.top <= 0) {
