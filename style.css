@@ -467,3 +467,28 @@ textarea {
     letter-spacing: 0.04em;
     margin-top: 5%;
 }
+
+
+#contact-form button[type="submit"]:hover {
+    background-color: white;
+    color: #394a51;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+#contact-form {
+    margin-left: 20%;
+}
+
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+    margin-top: 0;
+}
