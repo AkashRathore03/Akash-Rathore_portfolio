@@ -263,3 +263,27 @@ section {
         }
         
     }
+
+
+    .timeline {
+        position: relative;
+        width: 80%;
+        margin-top: 0%;
+    
+    
+    }
+    
+    .timeline-box {
+        position: relative;
+        margin: 5px;
+        width: 40%;
+        padding: 10px;
+        left: 5%;
+        min-height: 200px;
+        background-color: rgb(173, 155, 109);
+    }
+    
+    .timeline-box:nth-child(2n) {
+        left: 53%;
+    
+    }
