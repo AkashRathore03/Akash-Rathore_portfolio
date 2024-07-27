@@ -213,7 +213,7 @@ section {
 .logos{
     overflow: hidden;
     padding: 30px 0;
-    background-color: #92d7ec;
+    background-color: #c5f4f7;;
     white-space: nowrap;
     box-sizing: border-box;
     width: 100%;
@@ -411,3 +411,29 @@ section {
         box-shadow: 0px 0px 20px 1px #c5c1bc;
     }
     
+
+    #contact {
+        background-image: linear-gradient(to top, rgba(251, 242, 213, 0), #c5f4f7);
+    
+        padding-bottom: 40px;
+        background-color: #7fa99b;
+    
+    }
+
+    #contact span {
+        color: #394a51;
+        letter-spacing: 1;
+        font-size: 2em;
+        padding-top: 10px;
+        margin-right: 0.5rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    #contact-container {
+
+        display: flex;
+    }
+    
+    .contact-form-container {
+        width: 50%;
+    }    
