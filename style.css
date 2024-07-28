@@ -280,7 +280,7 @@ section {
         padding: 10px;
         left: 5%;
         min-height: 200px;
-        background-color: rgb(153, 183, 214);
+        background-color:  #c5f4f7;
     }
     
     .timeline-box:nth-child(2n) {
