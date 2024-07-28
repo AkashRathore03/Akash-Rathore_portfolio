@@ -564,3 +564,63 @@ button:focus {
 
 }
 
+@media screen and (max-width:768px) {
+
+
+    .timeline-divider {
+        left: 3%;
+    }
+
+    .timeline-box {
+        width: 80%;
+height: 50px;
+        padding: 20px;
+        left: 10% !important;
+    }
+
+    #user {
+        font-size: 3rem;
+
+    }
+
+    #my-image {
+        height: 15rem;
+        width: 15rem;
+        
+    }
+
+
+    #contact-form {
+        margin-left: 15%;
+    }
+
+    #contact-container {
+        flex-wrap: wrap;
+
+    }
+
+    #my-details-container {
+        width: 80%;
+        margin: 10%;
+
+    }
+
+    #contact-form-container {
+        width: 80%;
+        margin: 10%;
+    }
+
+    html {
+        font-size: 0.7rem;
+    }
+
+    .experience-list {
+        height: 200px;
+        width: 300px;
+    }
+
+    .experience-list:hover {
+        height: 300px;
+        width: 300px;
+    }
+}
