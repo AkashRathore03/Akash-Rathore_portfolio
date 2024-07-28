@@ -540,3 +540,27 @@ button:focus {
     box-shadow: none !important;
 }
 
+
+@media screen and (max-width:572px) {
+    #body-header {
+        height: 45vh;
+    }
+
+
+    .bars {
+        display: block;
+    }
+
+
+    .nav-menu {
+        display: none;
+    }
+
+    #experience-section {
+        flex-direction: column;
+    }
+
+
+
+}
+
